@@ -1,3 +1,4 @@
+score += 10;// add 10 to the score
 instance_destroy();// destroy bullet
 
 // in the "other" collision obj
