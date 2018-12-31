@@ -1,4 +1,5 @@
 lives -= 1;
+audio_play_sound(snd_die, 1, false);
 instance_destroy();// destroy self when colliding with asteroid
 
 // explode into 10 little pieces

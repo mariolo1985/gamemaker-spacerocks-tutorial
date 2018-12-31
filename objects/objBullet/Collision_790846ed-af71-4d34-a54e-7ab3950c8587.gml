@@ -1,4 +1,5 @@
-score += 10;// add 10 to the score
+score += 100;// add 100 to the score
+audio_play_sound(snd_die, 1, false);
 instance_destroy();// destroy bullet
 
 // in the "other" collision obj
